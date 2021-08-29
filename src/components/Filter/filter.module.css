@@ -1,0 +1,14 @@
+.label {
+  font-size: 25px;
+  color: #c0c8da;
+  font-weight: 400;
+}
+
+.input {
+  margin: 10px;
+  background-color: black;
+  color: #c0c8da;
+}
+.input:focus-within {
+  font-family: 'Caveat', cursive;
+}

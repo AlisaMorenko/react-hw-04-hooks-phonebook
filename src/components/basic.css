@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #c0c8da;
+  background-color: black;
+}
+
+/* font-family: 'Caveat', cursive; */
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 50px;
+  border-bottom: 1px solid #c0c8da;
+}
+
+h2 {
+  font-size: 35px;
+}

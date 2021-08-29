@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 25px;
+  color: #c0c8da;
+  font-weight: bold;
+}
+
+.input {
+  margin: 10px;
+  background-color: black;
+  color: #c0c8da;
+}
+.input:focus-within {
+  font-family: 'Caveat', cursive;
+}
+.button {
+  margin: 20px 0px 20px;
+  border-radius: 10%;
+  color: red;
+  background-color: black;
+  border: 3px solid red;
+  max-width: 200px;
+}
+.button:hover,
+.button:focus {
+  transform: scale(1.15);
+  transition-duration: 600ms;
+}
